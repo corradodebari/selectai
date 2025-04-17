@@ -273,7 +273,7 @@ EXIT;
 * grant privileges to VECTOR user for `DBMS_CLOUD` with `sqlplus`:
 
 ```
-alter session set container=FREEPDB1
+alter session set container=FREEPDB1;
 
 set verify off
  
