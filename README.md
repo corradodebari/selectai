@@ -1,6 +1,6 @@
 
-# Oracle DB 23ai 'select ai' setup on a free docker container
-This tutorial explains how to setup step-by-step **select ai** on a DB23ai free podman image. If you copy & past all the codes as-is, without changing anything you should arrive to a working env. The password used are already there, but if you want change, align the rest of the commands. The only credential you don't find in the documentation is related to the **OPENAI_API_KEY** that you have to get by yourself from [OpenAI Platform](https://platform.openai.com/settings/organization/api-keys)
+# 'select ai' setup on Oracle DB 23ai free docker container
+This tutorial explains how to setup step-by-step **select ai** on a DB23ai free podman image. If you copy & past all the codes as-is, without changing anything you should arrive to a working env. The password used are already there, but if you want change, align with the rest of the commands. The only credential you don't find in the documentation is related to the **OPENAI_API_KEY** that you have to get by yourself from [OpenAI Platform](https://platform.openai.com/settings/organization/api-keys)
 To see the official and original documentation, please refer to:
 * [Install DB23ai Utilities](https://docs.oracle.com/en/database/oracle/oracle-database/23/sutil/installing-dbms_cloud.html)
 
