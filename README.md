@@ -45,6 +45,7 @@ run:
 ```
 cd  /home/oracle/
 mkdir dbc
+mv ./dbc_certs.tar ./dbc
 cd dbc
 tar -xvf ./dbc_certs.tar
 ```
