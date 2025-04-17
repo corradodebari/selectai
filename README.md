@@ -4,6 +4,7 @@ This tutorial explains how to setup step-by-step **select ai** on a DB23ai free 
 To see the official and original documentation, please refer to:
 * [Install DB23ai Utils](https://docs.oracle.com/en/database/oracle/oracle-database/23/sutil/installing-dbms_cloud.html)
 
+![dalle]()
 
 ### Create the container
 
