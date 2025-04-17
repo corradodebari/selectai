@@ -372,6 +372,6 @@ END;
 
 * just to check if `select ai` is available run command like:
 ```
-select ai who is George Washington
+select ai who is George Washington;
 
 ```
