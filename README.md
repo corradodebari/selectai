@@ -350,6 +350,7 @@ DBMS_CLOUD_AI.create_profile(
 );
 END;
 /
+```
 
 ### Use Select AI.
 
