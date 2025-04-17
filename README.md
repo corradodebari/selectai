@@ -352,12 +352,15 @@ END;
 /
 
 ### Use Select AI.
+
 Before any session you start connecting with `sqlplus` as `vector`:
+
 ```
 podman exec -it selectai sqlplus vector/vector@localhost:1521/FREEPDB1
 ```
-run:
-* create the profile, just to check if `select ai` is available:
+
+* select the profile:
+```
 BEGIN
   DBMS_CLOUD_AI.set_profile(
     profile_name => 'openai_gpt'
@@ -366,7 +369,7 @@ END;
 /
 ```
 
-* run command like:
+* just to check if `select ai` is available run command like:
 ```
 select ai who is George Washington
 
