@@ -380,3 +380,24 @@ END;
 select ai who is George Washington;
 
 ```
+
+* for a more complex profile example like this:
+
+```
+BEGIN
+  DBMS_CLOUD_AI.CREATE_PROFILE(
+     profile_name => 'openai_gpt',
+     attributes =>
+      '{"provider": "openai",
+        "credential_name": "OPENAI_CRED",
+        "object_list": [{"owner": "SH","name": "customers"},{"owner": "SH","name": "products"} ],
+        "max_tokens":512,
+        "stop_tokens": [";"],
+        "model": "gpt-4",
+        "temperature": 0.5,
+        "comments": true
+       }');
+END;
+/
+```
+take a look to this [documentation](https://docs.oracle.com/en/cloud/paas/autonomous-database/dedicated/abmsc/index.html#GUID-12D91681-B51C-48E0-93FD-9ABC67B0F375).
